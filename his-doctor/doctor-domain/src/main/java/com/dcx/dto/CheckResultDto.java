@@ -1,6 +1,5 @@
 package com.dcx.dto;
 
-import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -30,7 +29,6 @@ public class CheckResultDto extends BaseDto {
     /**
      * 患者姓名
      */
-    @TableField(value = "patient_name")
     @ApiModelProperty(value = "患者姓名")
     private String patientName;
 

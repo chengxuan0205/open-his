@@ -212,7 +212,7 @@ public class OrderChargeController extends BaseController {
         }
         //现转支付宝  支付宝转现金的问题
         String outTradeNo = orderId;
-        String subject = "SXT-医疗管理系统支付平台";
+        String subject = "医疗管理云平台支付系统";
         String totalAmount = orderCharge.getOrderAmount().toString();
         String undiscountableAmount = null;
         String body = "";
